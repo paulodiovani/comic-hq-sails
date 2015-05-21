@@ -1,0 +1,16 @@
+{
+  "name": "comic-hq",
+  "version": "0.0.0",
+  "homepage": "https://github.com/paulodiovani/comic-hq-sails",
+  "authors": [
+    "Paulo Diovani"
+  ],
+  "license": "GPLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
