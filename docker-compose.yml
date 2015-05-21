@@ -5,13 +5,6 @@ mongo:
   ports:
     - "27017:27017"
 
-postgres:
-  image: postgres
-  expose:
-    - "5432"
-  ports:
-    - "5432:5432"
-
 redis:
   image: redis
   expose:
