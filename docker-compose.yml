@@ -1,0 +1,20 @@
+mongo:
+  image: mongo
+  expose:
+    - "27017"
+  ports:
+    - "27017:27017"
+
+postgres:
+  image: postgres
+  expose:
+    - "5432"
+  ports:
+    - "5432:5432"
+
+redis:
+  image: redis
+  expose:
+    - "6379"
+  ports:
+    - "6379:6379"
