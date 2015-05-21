@@ -3,7 +3,14 @@ module.exports = function(grunt) {
     dev: {
       dest: '.tmp/public',
       js_dest: '.tmp/public/js',
-      css_dest: '.tmp/public/styles'
+      css_dest: '.tmp/public/styles',
+      options: {
+        packageSpecific: {
+          fontawesome: {
+            dest: '.tmp/public/styles'
+          }
+        }
+      }
     }
   });
 
