@@ -39,7 +39,7 @@
   "scripts": {
     "debug": "node debug app.js",
     "start": "node app.js",
-    "test": "mocha test/bootstrap.test.coffee test/**/*_spec.coffee"
+    "test": "node_modules/mocha/bin/mocha test/bootstrap.test.coffee test/**/*_spec.coffee"
   },
   "main": "app.js",
   "repository": {
