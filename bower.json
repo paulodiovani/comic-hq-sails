@@ -12,5 +12,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "foundation": "~5.4.7",
+    "fontawesome": "~4.3.0"
+  }
 }
