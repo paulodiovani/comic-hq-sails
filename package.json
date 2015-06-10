@@ -41,7 +41,8 @@
     "postinstall": "./node_modules/.bin/bower install",
     "debug": "node debug app.js",
     "start": "node app.js",
-    "test": "node_modules/.bin/mocha test/bootstrap.test.coffee test/**/*_spec.coffee"
+    "test": "node_modules/.bin/mocha test/bootstrap.test.coffee test/**/*_spec.coffee",
+    "test debug": "node_modules/.bin/mocha debug test/bootstrap.test.coffee test/**/*_spec.coffee"
   },
   "main": "app.js",
   "repository": {
