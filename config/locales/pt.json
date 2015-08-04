@@ -1,4 +1,16 @@
 {
 	"Bem vindo": "Bem vindo",
-	"Uma nova aplicação.": "Uma nova aplicação."
+	"Uma nova aplicação.": "Uma nova aplicação.",
+
+  "Error.Passport.Password.Invalid" : "A senha fornecida é inválida!",
+  "Error.Passport.Password.Wrong"   : "Ops, parece que sua senha está incorreta!",
+  "Error.Passport.Password.NotSet"  : "Ah não, você não definiu uma senha ainda!",
+  "Error.Passport.Username.NotFound": "Err, qual mesmo o seu nome?",
+  "Error.Passport.User.Exists"      : "Este nome de usuário já está sendo usado.",
+  "Error.Passport.Email.NotFound"   : "Este email não parece estar correto",
+  "Error.Passport.Email.Missing"    : "Você precisa fornecer um endereço de email para verificação",
+  "Error.Passport.Email.Exists"     : "Este email já existe. Então, tente fazer login.",
+  "Error.Passport.Username.Missing" : "Você precisa fornecer um nome de usuário",
+  "Error.Passport.Password.Missing" : "Ah não, você não definiu uma senha ainda!",
+  "Error.Passport.Generic"          : "Huh. Houve algo de errado com a autorização."
 }
