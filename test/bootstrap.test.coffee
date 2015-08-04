@@ -1,4 +1,4 @@
-require('dotenv').config
+require('dotenv').load
   path: './.env.test'
 
 Sails = require('sails')
