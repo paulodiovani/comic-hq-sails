@@ -19,7 +19,7 @@
  */
 
 require('coffee-script/register');
-require('dotenv').load();
+require('dotenv').load({silent: true});
 
 // Ensure we're in the project directory, so relative paths work as expected
 // no matter where we actually lift from.
