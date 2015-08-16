@@ -1,6 +1,6 @@
 expect = require('chai').expect
 
-describe 'UserModel', ->
+describe 'User', ->
 
   describe '#count()', ->
     it 'is empty', (done) ->
