@@ -1,5 +1,6 @@
-
 Sails = require('sails')
+async = require('async')
+
 sails = null
 
 testConfig =
@@ -25,3 +26,9 @@ before (done) ->
 after (done) ->
   # here you can clear fixtures, etc.
   sails.lower done
+
+beforeEach (done) ->
+  # Run auto migration (drop) before each test
+  async.eachSeries sails.models, (model, next) ->
+    model.sync(next)
+  , done()
