@@ -1,6 +1,7 @@
 Sails = require('sails')
 async = require('async')
 
+global.expect  = require('chai').expect
 global.factory = require('sails-factory')
 
 sails = null

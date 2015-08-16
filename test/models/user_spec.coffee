@@ -1,7 +1,4 @@
-expect = require('chai').expect
-
 describe 'User', ->
-
   describe '#count()', ->
     it 'is empty', (done) ->
       User.count()
