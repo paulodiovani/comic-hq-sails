@@ -52,10 +52,10 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
 
-  host: process.env.REDIS_SERVER,
-  port: process.env.REDIS_PORT,
+  host: 'localhost',
+  port: 6379,
   ttl: 600,
-  db: process.env.REDIS_NAME,
-  pass: process.env.REDIS_PASS,
+  db: 'comichq',
+  pass: '',
   prefix: 'sess:'
 };

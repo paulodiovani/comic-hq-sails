@@ -27,6 +27,6 @@ module.exports.models = {
   * See http://sailsjs.org/#!/documentation/concepts/ORM/model-settings.html  *
   *                                                                          *
   ***************************************************************************/
-  migrate: (process.env.NODE_ENV == 'test') ? 'drop' : 'alter'
+  // migrate: 'alter'
 
 };
