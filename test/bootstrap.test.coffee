@@ -1,6 +1,8 @@
 Sails = require('sails')
 async = require('async')
 
+global.factory = require('sails-factory')
+
 sails = null
 
 testConfig =
@@ -21,6 +23,7 @@ before (done) ->
     sails = server
     return done(err) if err
     # here you can load fixtures, etc.
+    factory.load()
     done()
 
 after (done) ->
