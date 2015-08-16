@@ -18,7 +18,6 @@
  * `node app.js --silent --port=80 --prod`
  */
 
-require('coffee-script/register');
 require('dotenv').load({silent: true});
 
 // Ensure we're in the project directory, so relative paths work as expected
