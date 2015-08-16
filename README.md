@@ -39,7 +39,8 @@ docker-compose ps
 
 ## Running
 
-First, copy `.env.development` to `.env` and change it as necessary.
+First, copy `config/local.example.js` to `config/local.js` and
+change it as necessary.
 
 Then run:
 
