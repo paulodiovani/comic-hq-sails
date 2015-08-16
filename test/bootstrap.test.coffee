@@ -32,7 +32,6 @@ after (done) ->
   sails.lower done
 
 beforeEach (done) ->
-  # Run auto migration (drop) before each test
-  async.eachSeries sails.models, (model, next) ->
-    model.sync(next)
-  , done()
+  # Force run auto migration (drop) before each test
+  sails.once 'hook:orm:reloaded', done
+  sails.emit 'hook:orm:reload'
