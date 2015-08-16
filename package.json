@@ -36,8 +36,10 @@
     "validator": "^3.40.0"
   },
   "devDependencies": {
+    "async": "^1.4.2",
     "chai": "^2.3.0",
     "mocha": "^2.2.5",
+    "sails-factory": "^0.3.3",
     "supertest": "^1.0.1"
   },
   "scripts": {

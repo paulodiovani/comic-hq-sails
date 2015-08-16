@@ -1,7 +1,4 @@
-expect = require('chai').expect
-
 describe 'User', ->
-
   describe '#count()', ->
     it 'is empty', (done) ->
       User.count()
@@ -21,9 +18,13 @@ describe 'User', ->
       .catch(done)
 
   describe '#find()', ->
+    beforeEach (done) ->
+      factory.create 'user', email: 'bar@example.com', (user) ->
+        done()
+
     it 'find user', (done) ->
       User.find()
         .then (results) ->
-          expect(results).to.have.deep.property '[0].email', 'foo@example.com'
+          expect(results).to.have.deep.property '[0].email', 'bar@example.com'
           done()
         .catch(done)
